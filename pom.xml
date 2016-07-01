@@ -893,7 +893,8 @@
 						</connector>
 					</connectors>
 					<webAppConfig>
-						<contextPath>/${project.artifactId}</contextPath>
+					<!-- ${project.artifactId} -->
+						<contextPath>/</contextPath>
 					</webAppConfig>
 					<systemProperties>  
 						<systemProperty>
@@ -905,12 +906,12 @@
 			</plugin>
 			
 			<!-- resource插件 -->
-			<plugin>
+<!-- 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>2.6</version>
 			</plugin>
-			
+			 -->
 			<!-- install插件 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
